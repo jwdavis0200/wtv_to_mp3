@@ -6,6 +6,16 @@ This is a simple CLI-based python application to download Youtube and Souncloud 
 
 _Ad-free_ and **Fuss-free**. Even a 6 year old can use the app. Guaranteed.
 
+## How to run?
+
+In the project folder (whatever_to_mp3), run the following:
+
+1. python install -r requirements.txt
+2. python main.py
+
+
+    - follow the instructions presented by the CLI Program.
+
 ### Where are the files saved?
 
 It will be saved in your user folder in a newly created folder called wtv_mp3
