@@ -10,11 +10,10 @@ _Ad-free_ and **Fuss-free**. Even a 6 year old can use the app. Guaranteed.
 
 In the project folder (whatever_to_mp3), run the following:
 
-1. python install -r requirements.txt
+1. pip install -r requirements.txt
 2. python main.py
 
-
-    - follow the instructions presented by the CLI Program.
+   - follow the instructions presented by the CLI Program.
 
 ### Where are the files saved?
 
@@ -27,8 +26,10 @@ It will be saved in your user folder in a newly created folder called wtv_mp3
 
 ### Requirements:
 
-1. sclib
-2. pytube
-3. other dependencies in requirements.txt
+1. python3
+2. pip3
+3. sclib
+4. pytube
+5. other dependencies in requirements.txt
 
 Just run pip install -r requirements.txt
