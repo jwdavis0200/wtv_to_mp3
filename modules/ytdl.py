@@ -3,7 +3,7 @@ import os
 
 class Yt_dl:
   def __init__(self, url):
-    self.yt = YouTube(url,on_progress_callback=self.progress_function)
+    self.yt = YouTube(url,on_progress_callback=self.progress_function, use_oauth=True, allow_oauth_cache=True)
     self.filesize = 0
     
   def progress_function(self, stream, chunk, bytes_remaining):
